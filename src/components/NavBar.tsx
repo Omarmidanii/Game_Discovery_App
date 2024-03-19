@@ -9,7 +9,7 @@ interface Props{
 export const NavBar = ({onSearch} : Props) => {
   return (
     <>
-      <HStack padding={"10px"}>
+      <HStack padding={"10px"} mb={5}>
         <Image
           src={logo}
           boxSize="80px"
